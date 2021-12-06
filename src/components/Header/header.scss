@@ -1,0 +1,48 @@
+@import "src/styles/vars";
+
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    
+
+    &--title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $primaryColor;
+        color: $secondColor;
+    }
+}
+
+.header{
+    &__title{
+        padding: 0 .5rem;
+        margin: 0;
+    }
+    &__para{
+        padding: 0 .5rem;
+        margin: 0.2rem;
+    }
+}
+
+.header__nav {
+
+    &--container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: $secondColor;
+        padding: .8rem .4rem;
+    }
+    &--element{
+        color: $secondColor;
+        padding: .4rem;
+        border: 1px solid $primaryColor;
+        border-radius: 5px;
+        background-color: $primaryColor;
+        margin: 0.2rem .8rem;
+    }
+}
+
+
